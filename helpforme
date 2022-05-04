@@ -1,0 +1,13 @@
+pip install django
+django-admin startproject core .
+python manage.py startapp todoapp
+python manage.py migrate
+python manage.py runserver
+в сетттингсы добавляем наше приложение 'todoapp'
+в папке todoapp создаем директорию templates
+в папке templates создаем base.html
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
